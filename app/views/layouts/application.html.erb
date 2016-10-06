@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Myapp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+
+<!--
+purple
+rgb(112, 112, 219)
+
+dark purple 
+rgb(119, 51, 255)
+
+aqua
+rgb(33, 174, 197)
+
+dark aqua
+rgb(11, 136, 181)
+-->
+
+<body>
+  <div class="jumbotron", style="text-align: center; line-height: 700%; background-attachment: fixed;">
+
+    <div style="font-family: 'Ubuntu'; font-size: 700%; font-weight: bold; letter-spacing: +0.03ex; color: white; text-transform: none;">
+      <span style="color: white;">Saahiti<span><br><div style="color: rgb(33, 174, 197);">Annamneedi</div>
+      </div>
+      <p style="line-height: 125%;"><br></p>
+
+      <p style="width: 100%; background-color: rgb(33, 174, 197); color: white; font-family: 'Ubuntu'; font-size: 150%; padding: 1.75em 15% 2em 15%; line-height: 2.7ex; text-align: justify; text-justify: inter-word; ;letter-spacing: -0.01ex">
+        Welcome to my space on the interweb! My name is Saahiti, and I am a Computer Engineering student at the University of Waterloo. I'm an aspiring engineer, a learning enthusiast, and an amateur rock climber. Checkout my profile below!
+      </p>
+
+      <br>
+
+      <div class="category">
+        Work Experience
+      </div>
+
+      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh; padding: 0% 15% 0% 15%;">
+        <div class="left_light_container">
+          <div class="company_logo">
+            <%= image_tag "oracle.jpg", :style => "height: 100%; width: 100%; object-fit: contain" %>
+          </div>
+        </div>
+        <div class="right_heavy_container">
+          <p class="company">Oracle Eloqua</p>
+          <p class="job-title">Software Developer - DevOps</p>
+          <br>
+          <ul class="bullets">
+            <li><p class="bullet-line">Developed features of the DevOps API in Ruby, including provisioning, repurposing and bulkimaging VMs</p></li>
+            <li><p class="bullet-line">Managed build configurations and hotfix deployments using continuous integration tools such as Teamcity</p></li>
+            <li><p class="bullet-line">Automated daily maintenance tasks using Rundeck and remote management with Bash and Powershell scripts – reducing run-time by up to 83%</p></li>
+            <li><p class="bullet-line">Wrote Selenium and Cron scheduling jobs to update internal resource-monitoring website</p></li>
+          </ul>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+
+      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh; padding: 0% 15% 0% 15%;">
+        <div class="left_light_container">
+          <div class="company_logo">
+            <%= image_tag "n8id.png", :style => "height: 100%; width: 100%; object-fit: contain" %>
+          </div>
+        </div>
+        <div class="right_heavy_container">
+          <p class="company">N8 Identity</p>
+          <p class="job-title">Java Developer</p>
+          <br>
+          <ul class="bullets">
+            <li><p class="bullet-line">Worked on Employee Lifecycle Manager®, an identity and access management SaaS</p></li>
+            <li><p class="bullet-line">Implemented new features and bug-fixes to website and backend libraries using Spring Framework</p></li>
+            <li><p class="bullet-line">Designed and executed multi-threaded testing system to verify existing software, created 30,000+ JUnit tests and reduced test build time by 60%</p></li>
+            <li><p class="bullet-line">Wrote SQL scripts to fix regressions in database</p></li>
+            <li><p class="bullet-line">Used JavaScript, PrimeFaces, CSS, Facelets, AJAX</p></li>
+          </ul>
+        </div>
+      </div>
+      <div style="clear:both"></div>
+
+
+      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh; padding: 0% 15% 0% 15%;">
+        <div class="left_light_container">
+          <div class="company_logo">
+            <%= image_tag "maplesoft.jpg", :style => "height: 100%; width: 100%; object-fit: contain" %>
+          </div>
+        </div>
+        <div class="right_heavy_container">
+          <p class="company">Maplesoft</p>
+          <p class="job-title">Math Applicattions Developer</p>
+          <br>
+          <ul class="bullets">
+            <li><p class="bullet-line">Conceptualized and developed 30+ interactive applications from scratch using Maple</p></li>
+            <li><p class="bullet-line">Applets include – Logic Gates Builder, Binary Search Trees, Tessellations, Book of Lemmas and 3D Coordinates Systems</p></li>
+            <li><p class="bullet-line">Designed UI/UX and incorporated Maple’s own interactive controls</p></li>
+            <li><p class="bullet-line">Wrote technical descriptions to communicate concepts in math, engineering and CS</p></li>
+          </ul>
+        </div>
+      </div>
+      <div style="clear:both"></div>
+
+      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh; padding: 0% 15% 0% 15%;">
+        <div class="left_light_container">
+          <div class="company_logo">
+            <%= image_tag "mug.jpg", :style => "height: 100%; width: 100%; object-fit: fill" %>
+          </div>
+        </div>
+        <div class="right_heavy_container">
+          <p class="company">DARIS - Junior Achievement, IBM</p>
+          <p class="job-title">Founding Partner & Sales Executive</p>
+          <br>
+          <ul class="bullets">
+            <li><p class="bullet-line">Launched two profitable products – the chalkboard mug and infinity scarf – as a founding contributor and employee at DARIS, Junior Achievement IBM</p></li>
+            <li><p class="bullet-line">Proposed entrepreneurial solutions to meet budget and resource constraints</p></li>
+            <li><p class="bullet-line">Contributed to product conceptualization, manufacturing and marketing</p></li>
+          </ul>
+        </div>
+      </div>
+      <div style="clear:both"></div>
+      <br>
+
+      <div class="category">Projects</div>
+<!--
+      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh">
+        <div class="right_heavy_container" style="float: left; width: 100%;">
+          <%= image_tag "politicalign.png", :style => "height: auto; width: 70%; object-fit: contain" %>
+
+        </div>
+        <div style="clear:both"></div>
+
+        <div class="company">Politicalign</div>
+        <div class="job-title">QHacks 2016</div>
+        <div style="font-size: 150%; padding: 0 0 0 0">
+          An AngularJS website that uses indico.io machine learning APIs and charts.js to summarize 2016 US presidential candidates' public personalities, based on transcripts of speeches and press statements
+          <div style="clear:both"></div>
+        </div>
+        
+      </div>-->
+
+
+      <div class="container-fluid", style="background-color: rgb(33, 174, 197);">
+        <div class="row", style="font-family: 'Ubuntu'; line-height: 2.7em; color: white; padding: 5% 5% 5% 5%;">
+          <%= image_tag "politicalign.png", :style => "height: auto; width: 70%; object-fit: contain" %>
+          <div style="font-size: 250%; font-weight: bold;">Politicalign</div>
+          <div style="font-size: 150%;">QHacks 2016</div>
+          <p style="font-size: 100%; padding: 0% 15% 0% 15%">
+            An AngularJS website that uses indico.io machine learning APIs and charts.js to summarize 2016 US presidential candidates' public personalities, based on transcripts of speeches and press statements
+          </p>
+          <div style="clear:both"></div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="category">Art Work</div>
+
+      <div style="padding: 0 15% 0 15%; background-color: rgba(255, 255, 255, 0.5);">
+        <p class="col-md-4 art">
+          <a href="#" data-toggle="modal" data-target="#myModal1">
+            <%= image_tag "art/bottle.jpg", :class => "artclass" %>
+          </a>
+        </p>
+        <p class="col-md-4 art">
+          <a href="#" data-toggle="modal" data-target="#myModal2">
+            <%= image_tag "art/cube.jpg", :class => "artclass" %>
+          </a>
+        </p>
+        <p class="col-md-4 art">
+          <a href="#" data-toggle="modal" data-target="#myModal3">
+            <%= image_tag "art/keys.jpg", :class => "artclass" %>
+          </a>
+        </p>
+        <div style="clear: both;"></div>
+
+        <div class="col-xs-6 art" style="padding: 2% 2% 2% 2%;">
+          <a href="#" data-toggle="modal" data-target="#myModal4">
+            <%= image_tag "art/europe.jpg", :class => "artclass" %>
+          </a>
+        </div>
+
+        <div class="col-xs-6 art" style="padding: 2% 2% 2% 2%;">
+          <a href="#" data-toggle="modal" data-target="#myModal5">
+            <%= image_tag "art/sunglasses.jpg", :class => "artclass" %>
+          </a>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+
+      <!--Modals-->
+
+      <div class="modal fade", id="myModal0">
+        <div class="modal-dialog custom-class">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h3 class="modal-header-text">Text</h3>
+            </div>
+            <div class="modal-body">
+              <%= image_tag "art/bottle.jpg", :class => "img-responsive", :style => "max-width: 100%; max-height: 100%; object-fit: contain;" %>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+      <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <%= image_tag "art/bottle.jpg", :class => "img-responsive", :style => "max-width: 100%; max-height: 100%; object-fit: contain;" %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <%= image_tag "art/cube.jpg", :style => "height: 100%; width: 100%; object-fit: contain" %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <%= image_tag "art/keys.jpg", :style => "max-width: 100%; object-fit: contain" %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <%= image_tag "art/europe.jpg", :style => "max-width: 100%; object-fit: contain" %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <%= image_tag "art/sunglasses.jpg", :style => "max-width: 100%; object-fit: contain" %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!--
+  <%= yield %> -->
+</body>
+</html>
