@@ -25,12 +25,12 @@ rgb(11, 136, 181)
 <body>
   <div class="jumbotron", style="text-align: center; line-height: 700%; background-attachment: fixed;">
 
-    <div style="font-family: 'Ubuntu'; font-size: 700%; font-weight: bold; letter-spacing: +0.03ex; color: white; text-transform: none;">
+    <div style="font-family: 'PT Sans'; font-size: 700%; font-weight: bold; letter-spacing: +0.03ex; color: white; text-transform: none;">
       <span style="color: white;">Saahiti<span><br><div style="color: rgb(33, 174, 197);">Annamneedi</div>
       </div>
       <p style="line-height: 125%;"><br></p>
 
-      <p style="width: 100%; background-color: rgb(33, 174, 197); color: white; font-family: 'Ubuntu'; font-size: 150%; padding: 1.75em 15% 2em 15%; line-height: 2.7ex; text-align: justify; text-justify: inter-word; ;letter-spacing: -0.01ex">
+      <p style="width: 100%; background-color: rgba(33, 174, 197, 0.6); color: white; font-family: 'PT Sans'; font-size: 160%; padding: 1em 15% 1em 15%; line-height: 1.3em;">
         Welcome to my space on the interweb! My name is Saahiti, and I am a Computer Engineering student at the University of Waterloo. I'm an aspiring engineer, a learning enthusiast, and an amateur rock climber. Checkout my profile below!
       </p>
 
@@ -40,7 +40,7 @@ rgb(11, 136, 181)
         Work Experience
       </div>
 
-      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh; padding: 0% 15% 0% 15%;">
+      <div style="width: 100%; font-family: 'PT Sans'; height: 50vh; padding: 0% 15% 0% 15%;">
         <div class="left_light_container">
           <div class="company_logo">
             <%= image_tag "oracle.jpg", :style => "height: 100%; width: 100%; object-fit: contain" %>
@@ -60,7 +60,7 @@ rgb(11, 136, 181)
         <div style="clear:both"></div>
       </div>
 
-      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh; padding: 0% 15% 0% 15%;">
+      <div style="width: 100%; font-family: 'PT Sans'; height: 50vh; padding: 0% 15% 0% 15%;">
         <div class="left_light_container">
           <div class="company_logo">
             <%= image_tag "n8id.png", :style => "height: 100%; width: 100%; object-fit: contain" %>
@@ -82,7 +82,7 @@ rgb(11, 136, 181)
       <div style="clear:both"></div>
 
 
-      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh; padding: 0% 15% 0% 15%;">
+      <div style="width: 100%; font-family: 'PT Sans'; height: 50vh; padding: 0% 15% 0% 15%;">
         <div class="left_light_container">
           <div class="company_logo">
             <%= image_tag "maplesoft.jpg", :style => "height: 100%; width: 100%; object-fit: contain" %>
@@ -102,7 +102,7 @@ rgb(11, 136, 181)
       </div>
       <div style="clear:both"></div>
 
-      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh; padding: 0% 15% 0% 15%;">
+      <div style="width: 100%; font-family: 'PT Sans'; height: 50vh; padding: 0% 15% 0% 15%;">
         <div class="left_light_container">
           <div class="company_logo">
             <%= image_tag "mug.jpg", :style => "height: 100%; width: 100%; object-fit: fill" %>
@@ -124,7 +124,7 @@ rgb(11, 136, 181)
 
       <div class="category">Projects</div>
 <!--
-      <div style="width: 100%; font-family: 'Ubuntu'; height: 50vh">
+      <div style="width: 100%; font-family: 'PT Sans'; height: 50vh">
         <div class="right_heavy_container" style="float: left; width: 100%;">
           <%= image_tag "politicalign.png", :style => "height: auto; width: 70%; object-fit: contain" %>
 
@@ -141,141 +141,166 @@ rgb(11, 136, 181)
       </div>-->
 
 
-      <div class="container-fluid", style="background-color: rgb(33, 174, 197);">
-        <div class="row", style="font-family: 'Ubuntu'; line-height: 2.7em; color: white; padding: 5% 5% 5% 5%;">
-          <%= image_tag "politicalign.png", :style => "height: auto; width: 70%; object-fit: contain" %>
-          <div style="font-size: 250%; font-weight: bold;">Politicalign</div>
-          <div style="font-size: 150%;">QHacks 2016</div>
-          <p style="font-size: 100%; padding: 0% 15% 0% 15%">
-            An AngularJS website that uses indico.io machine learning APIs and charts.js to summarize 2016 US presidential candidates' public personalities, based on transcripts of speeches and press statements
-          </p>
-          <div style="clear:both"></div>
+      <div class="container-fluid", style="background-color: rgba(33, 174, 197, 0.6); width: 70%;">
 
-        </div>
-      </div>
-
-
-
-
-
-
-      <div class="category">Art Work</div>
-
-      <div style="padding: 0 15% 0 15%; background-color: rgba(255, 255, 255, 0.5);">
-        <p class="col-md-4 art">
-          <a href="#" data-toggle="modal" data-target="#myModal1">
-            <%= image_tag "art/bottle.jpg", :class => "artclass" %>
-          </a>
+       <div class="row", style="font-family: 'PT Sans'; line-height: 2.7em; color: white; padding: 2% 2% 2% 2%;">
+        <div style="font-size: 250%; font-weight: bold;">Lead Scoring and Influence Analyzer</div>
+        <div style="font-size: 150%;">HackWeek, Oracle Eloqua</div>
+        <%= image_tag "charts.jpg", :style => "height: auto; width: 30%; object-fit: contain" %>
+        <p style="font-size: 125%; line-height: 1.2em; padding: 0% 30% 0% 30%";>
+          A web-app that visualizes clients' lead scores and influence analysis, developed using node.js, HTML/CSS during Oracle's HackWeek
         </p>
-        <p class="col-md-4 art">
-          <a href="#" data-toggle="modal" data-target="#myModal2">
-            <%= image_tag "art/cube.jpg", :class => "artclass" %>
-          </a>
+        <div style="clear:both"></div>
+      </div>
+
+      <div class="row", style="font-family: 'PT Sans'; line-height: 2.7em; color: white; padding: 2% 2% 2% 2%;">
+        <div style="font-size: 250%; font-weight: bold;">Politicalign</div>
+        <div style="font-size: 150%;">QHacks 2016</div>
+        <%= image_tag "politicalign.png", :style => "height: auto; width: 60%; object-fit: contain" %>
+        <p style="font-size: 125%; line-height: 1.2em; padding: 0% 20% 0% 20%";>
+          An AngularJS website that uses indico.io machine learning APIs and charts.js to summarize 2016 US presidential candidates' public personalities, based on transcripts of speeches and press statements.
         </p>
-        <p class="col-md-4 art">
-          <a href="#" data-toggle="modal" data-target="#myModal3">
-            <%= image_tag "art/keys.jpg", :class => "artclass" %>
-          </a>
+        <div style="clear:both"></div>
+      </div>
+
+      <div class="row", style="font-family: 'PT Sans'; line-height: 2.7em; color: white; padding: 2% 2% 2% 2%;">
+        <div style="font-size: 250%; font-weight: bold;">Sudoku Solver</div>
+        <%= image_tag "sudoku.png", :style => "height: auto; width: 30%; object-fit: contain" %>
+        <p style="font-size: 125%; line-height: 1.2em; padding: 0% 30% 0% 30%";>
+          Generates interactive Sudoku puzzles of varying difficulty levels for user and solves any valid puzzle, written in Java
         </p>
-        <div style="clear: both;"></div>
-
-        <div class="col-xs-6 art" style="padding: 2% 2% 2% 2%;">
-          <a href="#" data-toggle="modal" data-target="#myModal4">
-            <%= image_tag "art/europe.jpg", :class => "artclass" %>
-          </a>
-        </div>
-
-        <div class="col-xs-6 art" style="padding: 2% 2% 2% 2%;">
-          <a href="#" data-toggle="modal" data-target="#myModal5">
-            <%= image_tag "art/sunglasses.jpg", :class => "artclass" %>
-          </a>
-        </div>
-        <div style="clear: both;"></div>
+        <div style="clear:both"></div>
       </div>
 
-      <!--Modals-->
+      <div class="row", style="font-family: 'PT Sans'; line-height: 2.7em; color: white; padding: 2% 2% 2% 2%;">
+        <div style="font-size: 250%; font-weight: bold;">Packaging Factory</div>
+        <%= image_tag "factory.jpg", :style => "height: auto; width: 60%; object-fit: contain" %>
+        <p style="font-size: 125%; line-height: 1.2em; padding: 0% 20% 0% 20%";>
+          Constructed and programmed automated packaging factory using Arduino, SONAR detectors, SERVO motors and photo sensors
+        </p>
+        <div style="clear:both"></div>
+      </div>
 
-      <div class="modal fade", id="myModal0">
-        <div class="modal-dialog custom-class">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h3 class="modal-header-text">Text</h3>
-            </div>
-            <div class="modal-body">
-              <%= image_tag "art/bottle.jpg", :class => "img-responsive", :style => "max-width: 100%; max-height: 100%; object-fit: contain;" %>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
 
-      <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-              <%= image_tag "art/bottle.jpg", :class => "img-responsive", :style => "max-width: 100%; max-height: 100%; object-fit: contain;" %>
-            </div>
+
+    </div>
+
+    <br>
+
+    <div class="category">Art Work</div>
+
+    <div class="container-fluid", style="background-color: rgba(33, 174, 197, 0.6); width: 70%; text-align: center;">
+      <p class="col-md-4 art">
+        <a href="#" data-toggle="modal" data-target="#myModal1">
+          <%= image_tag "art/bottle.jpg", :class => "artclass" %>
+        </a>
+      </p>
+      <p class="col-md-4 art">
+        <a href="#" data-toggle="modal" data-target="#myModal2">
+          <%= image_tag "art/cube.jpg", :class => "artclass" %>
+        </a>
+      </p>
+      <p class="col-md-4 art">
+        <a href="#" data-toggle="modal" data-target="#myModal3">
+          <%= image_tag "art/keys.jpg", :class => "artclass" %>
+        </a>
+      </p>
+      <div style="clear: both;"></div>
+
+      <div class="col-xs-6 art" style="padding: 2% 2% 2% 2%;">
+        <a href="#" data-toggle="modal" data-target="#myModal4">
+          <%= image_tag "art/europe.jpg", :class => "artclass" %>
+        </a>
+      </div>
+
+      <div class="col-xs-6 art" style="padding: 2% 2% 2% 2%;">
+        <a href="#" data-toggle="modal" data-target="#myModal5">
+          <%= image_tag "art/sunglasses.jpg", :class => "artclass" %>
+        </a>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+
+    <!--Modals-->
+
+    <div class="modal fade", id="myModal0">
+      <div class="modal-dialog custom-class">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-header-text">Text</h3>
+          </div>
+          <div class="modal-body">
+            <%= image_tag "art/bottle.jpg", :class => "img-responsive", :style => "max-width: 100%; max-height: 100%; object-fit: contain;" %>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <%= image_tag "art/bottle.jpg", :class => "img-responsive", :style => "max-width: 100%; max-height: 100%; object-fit: contain;" %>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-              <%= image_tag "art/cube.jpg", :style => "height: 100%; width: 100%; object-fit: contain" %>
-            </div>
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <%= image_tag "art/cube.jpg", :style => "height: 100%; width: 100%; object-fit: contain" %>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-              <%= image_tag "art/keys.jpg", :style => "max-width: 100%; object-fit: contain" %>
-            </div>
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <%= image_tag "art/keys.jpg", :style => "max-width: 100%; object-fit: contain" %>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-              <%= image_tag "art/europe.jpg", :style => "max-width: 100%; object-fit: contain" %>
-            </div>
+    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <%= image_tag "art/europe.jpg", :style => "max-width: 100%; object-fit: contain" %>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-              <%= image_tag "art/sunglasses.jpg", :style => "max-width: 100%; object-fit: contain" %>
-            </div>
+    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <%= image_tag "art/sunglasses.jpg", :style => "max-width: 100%; object-fit: contain" %>
           </div>
         </div>
       </div>
+    </div>
 
-
-<!--
-  <%= yield %> -->
 </body>
 </html>

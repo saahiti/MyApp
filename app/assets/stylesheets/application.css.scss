@@ -32,14 +32,14 @@
       rgba(112, 112, 219, 0.80), 
       rgba(100, 100, 180, 0.50)
       */
-      rgba(0, 0, 0, 0.70), 
-      rgba(100, 100, 180, 0.40)
+      rgba(112, 112, 219, 0.60), 
+      rgba(100, 100, 180, 0.60)
     ),
 
 /*
     linear-gradient(
-      rgba(112, 112, 219, 0.80), 
-      rgba(112, 112, 219, 0.80)
+      rgba(112, 112, 219, 0.60), 
+      rgba(112, 112, 219, 0.60)
     ),
     url
     image-url
@@ -72,7 +72,7 @@
   width: 75%;
   height: 100%;
   background-color: rgb(33, 174, 197);
-  font-family: 'Ubuntu';
+  font-family: 'PT Sans';
   color: white;
   word-wrap: break-word;
   white-space: normal;
@@ -116,18 +116,18 @@ dark aqua
 */
 
 .job-title {
-  font-family: 'Ubuntu';
+  font-family: 'PT Sans';
   font-size: 200%;
 }
 
 .company {
-  font-family: 'Ubuntu';
+  font-family: 'PT Sans';
   font-size: 250%;
   
 }
 
 .job-desc {
-  font-family: 'Ubuntu';
+  font-family: 'PT Sans';
   font-size: 150%;
 }
 
@@ -171,7 +171,7 @@ p.job-title {
 }
 
 .category {
-  font-family: 'Ubuntu'; font-size: 300%; font-weight: bold; letter-spacing: +0.03ex; color: white;
+  font-family: 'PT Sans'; font-size: 300%; font-weight: bold; letter-spacing: +0.03ex; color: white;
 }
 
 #popup {
